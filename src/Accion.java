@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Accion {
 	
 	private String nombre;
-	private ArrayList<Operacion> operacion;
+	private ArrayList<Operacion> operacion = new ArrayList<Operacion>();
 	
 	public Accion() {
 		
